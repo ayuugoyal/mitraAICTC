@@ -50,7 +50,7 @@ export const teamData = [
   {
     img: "/img/img-5.jpg",
     name: "Arun Kumar Maurya",
-    position: "Partner",
+    position: "Spokes person",
     socials: [
       {
         color: "red",
