@@ -11,8 +11,8 @@ import {
 } from "@material-tailwind/react";
 import { UsersIcon } from "@heroicons/react/24/solid";
 import { PageTitle, Footer } from "@/widgets/layout";
-import { FeatureCard, TeamCard } from "@/widgets/cards";
-import { featuresData, teamData, contactData } from "@/data";
+import { FeatureCard, TeamCard, PartnerCards } from "@/widgets/cards";
+import { featuresData, teamData, contactData, partnerData } from "@/data";
 import { Link } from "react-router-dom";
 
 export function Home() {
@@ -37,6 +37,13 @@ export function Home() {
                 className="mb-2 font-black"
               >
                 AICTE Idea Lab
+              </Typography>
+              <Typography
+                variant="h4"
+                color="white"
+                className="mb-2 font-black"
+              >
+                Pollution and Waste Wanagement Drive
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
                 At Jeevan Mitra, we believe in the power of collective action to
@@ -129,7 +136,7 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="px-4 pb-48 pt-20">
+      <section className="px-4 pb-20 pt-20">
         <div className="container mx-auto">
           <PageTitle heading="Here are our heroes"></PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-4">
@@ -151,6 +158,23 @@ export function Home() {
                     ))}
                   </div>
                 }
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="px-4 pb-28">
+        <div className="container mx-auto">
+          <PageTitle heading="Our Partners"></PageTitle>
+          <div className="mt-14">
+            {partnerData.map(({ link, image, date, desc, name }) => (
+              <PartnerCards
+                key={name}
+                image={image}
+                name={name}
+                date={date}
+                desc={desc}
+                link={link}
               />
             ))}
           </div>
