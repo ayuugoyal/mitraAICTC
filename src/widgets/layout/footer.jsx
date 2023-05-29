@@ -79,7 +79,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "Mitra",
+  title: "Jeevan Mitra",
   description: "Taking Small Steps for a Greener Tomorrow.",
   socials: [
     {

@@ -114,7 +114,7 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Mitra",
+  brandName: "Jeevan Mitra",
   action: (
     <a href="#">
       <Button variant="gradient" size="sm" fullWidth>

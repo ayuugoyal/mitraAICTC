@@ -29,24 +29,17 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                Welcome to Mitra
+                Welcome to Jeevan Mitra
               </Typography>
               <Typography
                 variant="h4"
                 color="white"
                 className="mb-2 font-black"
               >
-                AICTC Idea Lab
-              </Typography>
-              <Typography
-                variant="h5"
-                color="white"
-                className="mb-1 font-black"
-              >
-                Advance Faculty Development Program
+                AICTE Idea Lab
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                At Mitra, we believe in the power of collective action to
+                At Jeevan Mitra, we believe in the power of collective action to
                 preserve our planet for future generations. Our website is
                 dedicated to spreading awareness about waste management and
                 providing practical methods to save the environment. We aim to

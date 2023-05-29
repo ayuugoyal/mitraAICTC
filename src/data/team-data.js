@@ -38,7 +38,7 @@ export const teamData = [
   {
     img: "/img/img-2.jpg",
     name: "Shahzad Ali",
-    position: "Partner",
+    position: "Analyst",
     socials: [
       {
         color: "light-blue",
