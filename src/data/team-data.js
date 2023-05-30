@@ -96,6 +96,23 @@ export const teamData = [
       // },
     ],
   },
+  {
+    img: "/img/img-10.jpg",
+    name: "Ayush Goyal",
+    position: "Website Developer",
+    socials: [
+      {
+        color: "light-blue",
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/ayuugoyal",
+      },
+      {
+        color: "light-blue",
+        name: "twitter",
+        link: "https://www.twitter.com/ayuugoyal",
+      },
+    ],
+  },
 ];
 
 export default teamData;
