@@ -73,8 +73,8 @@ export const teamData = [
     ],
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qiOxnlfgkRUJD_c8ECSPrcP7j77pCWlGb0lEWfQXsw&ec=48665698",
-    name: "Mr. Rajesh",
+    img: "/img/img-7.jpg",
+    name: "Mr. Rajesh Ashoni",
     position: "Developer 2",
     socials: [
       // {
@@ -85,7 +85,7 @@ export const teamData = [
     ],
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qiOxnlfgkRUJD_c8ECSPrcP7j77pCWlGb0lEWfQXsw&ec=48665698",
+    img: "/img/img-6.jpg",
     name: "Dr. Gaganpreet Kaur",
     position: "Co-ordinator",
     socials: [
